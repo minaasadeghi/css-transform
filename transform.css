@@ -1,0 +1,133 @@
+.container{
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.contdiv ,.gray{
+    width:110px;
+    height:110px ;
+   background-color: rgba(14, 300, 44 , 0.7);
+    display: inline-block;
+    border: 2.5px dotted rgb(145, 213, 213);
+    transition: .95s;
+    text-align: center;
+
+}
+.gray{
+background-color:  rgb(14, 126, 126);
+margin: 60px;
+}
+#d1:hover{
+    transform: rotate(45deg);
+}
+
+#d2:hover{
+    transform: scaleY(0.65);
+}
+
+
+#d3:hover{
+    transform: scaleX(0.65);
+}
+
+#d4:hover{
+    transform: scale(1.5,1.5);
+}
+
+#d5:hover{
+    transform: scaleX(2);
+}
+
+#d6:hover{
+    transform: scaleY(2);
+}
+
+#d7:hover{
+    transform: skewX(45deg);
+}
+
+#d8:hover{
+    transform: skewY(45deg);
+}
+#d9:hover{
+   transform:translate(60px,30px); 
+}
+
+#d10:hover{
+    transform: translate(90px);
+}
+
+
+#d11:hover{
+    transform: translateY(50px);
+}
+
+#d12:hover{
+    transform: skewY(45deg) scale(1.4);
+   
+}
+#pers13{
+    perspective:140px;
+}
+#d13:hover{
+    transform: rotateX(60deg) scaleX(1.2) ;
+}
+#pers14{
+perspective: 300px;
+}
+
+#d14:hover{
+    transform: rotateY(55deg) scaleX(2) ;
+}
+
+#d15:hover{
+    transform: rotate(90deg);
+    transform-origin: top right ;
+}
+#d16:hover{
+    transform: rotate(90deg);
+    transform-origin: bottom left ;
+}
+#pers17{
+    perspective:180px;
+}
+#d17:hover{
+    transform: rotateX(50deg) scaleX(1) ;
+    transform-origin: bottom;
+}
+#d18:hover{
+    transform: rotateX(50deg) scaleX(1) ;
+    transform-origin: top;
+}
+#d19:hover{
+    transform:rotateY(50deg) scaleX(1) ;
+    transform-origin: left;
+}
+#d20:hover{
+    transform: rotateY(50deg) scaleX(0.89) ;
+    transform-origin: right;
+}
+#d21:hover{
+    transform-origin:top right;
+    transform: scale(2); 
+}
+#d22:hover{
+    transform-origin:bottom left;
+    transform: scale(2); 
+}
+
+#d23:hover{
+    transform-origin: right;
+    transform: scaleX(2);
+}
+#d24:hover{
+    transform-origin: left;
+    transform: scaleX(2);
+}
+#d25:hover{
+    transform-origin: top;
+    transform: scaleY(2);
+}
+#d26:hover{
+    transform-origin: bottom;
+    transform: scaleY(2);
+}
